@@ -1,0 +1,21 @@
+{
+  "name": "tailwind-vanila-js",
+  "version": "1.0.0",
+  "description": "Simple html pages designed with tailwind css",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/styles.css -o dist/styles.css",
+    "watch": "watch `npm run build` ./dist",
+    "start": "vite"
+  },
+  "keywords": [],
+  "author": "rajukumar",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss-cli": "^9.1.0",
+    "tailwindcss": "^3.0.18",
+    "vite": "^2.7.13",
+    "watch": "^1.0.2"
+  }
+}
